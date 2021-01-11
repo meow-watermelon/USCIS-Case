@@ -1,0 +1,5 @@
+Revision history for Perl extension USCIS::Case.
+
+0.01  Sun Jan 10 21:20:45 2021
+	- initial commit. 
+    - added function(s): check_case_status().

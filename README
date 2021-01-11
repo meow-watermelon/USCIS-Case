@@ -1,4 +1,4 @@
-USCIS-Case version 0.01
+USCIS-Case version 0.02
 =======================
 USCIS::Case is a wrapper to access USCIS website to get information about USCIS case. It has only one function now which is to check the case status. But more features would be added in the future.
 

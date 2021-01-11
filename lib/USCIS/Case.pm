@@ -7,7 +7,7 @@ our @EXPORT_OK = qw(check_case_status);
 our %EXPORT_TAGS = ( all => \@EXPORT_OK );
 use base qw(Exporter);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use LWP::Protocol::https;
 use LWP::UserAgent;
@@ -70,7 +70,7 @@ __END__
 
 =head1 NAME
 
-USCIS::Case - Perl extensions to check USCIS case status. More features would be added in the future.
+USCIS::Case - Perl extensions to check USCIS (United States Citizenship and Immigration Services) case status. More features would be added in the future.
 
 =head1 SYNOPSIS
 
@@ -86,7 +86,7 @@ USCIS::Case - Perl extensions to check USCIS case status. More features would be
 
 =head1 DESCRIPTION
 
-USCIS::Case is a wrapper to access USCIS website to get information about USCIS case. It has only one function now which is to check the case status. But more features would be added in the future.
+USCIS::Case is a wrapper to access USCIS (United States Citizenship and Immigration Services) website to get information about USCIS case. It has only one function now which is to check the case status. But more features would be added in the future.
 
 Each function will return a hash reference.
 
